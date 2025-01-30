@@ -548,7 +548,9 @@ blockquote.has-text-align-right
 <link rel="stylesheet" id="flaticon-css" href="/lapovostatic/wp-content/plugins/ova-framework/assets/libs/flaticon/font/flaticon.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="/lapovostatic/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.27.2" type="text/css" media="all">
 <style id="elementor-frontend-inline-css" type="text/css">.elementor-kit-14{--e-global-color-primary:#2481DD;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#3375B6;--e-global-color-455c9d6:#2993E7;--e-global-color-33a76f1:#2163AC;--e-global-color-aa8eefb:#95DEFB;--e-global-color-e4e82ef:#EFFAFF;--e-global-color-f5d220b:#183453;--e-global-color-bb3274f:#DEDEDE;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-14 e-page-transition{background-color:#FFBC7D;}.elementor-kit-14 a{color:#2481DD;}.elementor-kit-14 a:hover{color:#183453;}.elementor-kit-14 button,.elementor-kit-14 input[type="button"],.elementor-kit-14 input[type="submit"],.elementor-kit-14 .elementor-button{border-radius:8px 8px 8px 8px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1280px;}.e-con{--container-max-width:1280px;}.elementor-widget:not(:last-child){--kit-widget-spacing:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.elementor-widget-text-editor p {
-    margin: 0;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }/* End custom CSS */
 .elementor-6307 .elementor-element.elementor-element-f869058{--display:flex;}.elementor-6307 .elementor-element.elementor-element-1175e6b{--display:flex;--gap:15px 15px;--row-gap:15px;--column-gap:15px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-6307 .elementor-element.elementor-element-9cb9593{text-align:justify;font-size:16px;}.elementor-6307 .elementor-element.elementor-element-ed3d5d8 > .elementor-widget-container{margin:-10px 0px -10px 0px;}.elementor-6307 .elementor-element.elementor-element-ed3d5d8 .file-embed iframe{height:1000px;}.elementor-6307 .elementor-element.elementor-element-ed3d5d8 .download-button{background-color:#0073e6;color:#ffffff;}.elementor-6307 .elementor-element.elementor-element-ed3d5d8 .download-button:hover{background-color:#00A14B;}@media(max-width:1024px){.elementor-6307 .elementor-element.elementor-element-9cb9593{font-size:14px;}}@media(max-width:767px){.elementor-6307 .elementor-element.elementor-element-9cb9593{font-size:12px;}}</style>
 <link rel="stylesheet" id="style-elementor-css" href="/lapovostatic/wp-content/plugins/ova-framework/assets/css/style-elementor.css" type="text/css" media="all">
@@ -1094,11 +1096,307 @@ article.post-wrap .post-media img {
     position: relative;
     overflow: hidden;
     margin-bottom: 22px;
+}
+
+/* Documents */
+.ova_doc_wrap.archive-doc .ova_doc_content .items-doc .doc-icon-title .doc-title-item .doc-title {
+    margin-bottom: 1px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.3rem;
+}
+
+.ova_doc_wrap.archive-doc .ova_doc_content .items-doc .doc-icon-title .doc-title-item .doc-title a {
+    font-size: 16px;
+    line-height: 26px;
+    color: #202b5d;
+    font-weight: 600;
+}
+
+.elementor-kit-8 p {
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+span.file-size {
+    display: none;
+}
+
+span.type {
+    text-transform: uppercase;
+}
+
+.content_comments {
+    display: none;
+}
+
+.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-download a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-file-name-size .ova-file-name {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    color: #202b5d;
+    word-break: break-word;
+}
+
+.ova_doc_wrap {
+    display: flex
+;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto 0px auto;
+    max-width: 1270px;
+}
+
+.ova_doc_wrap .ova_doc_content .share_social {
+    margin-top: 30px;
+    padding-top: 35px;
+    border-top: none;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 0px solid #eeeeee;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+}
+
+.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-file-name-size {
+    flex: 0 0 calc(100% - 154px);
+    padding-right: 10px;
+}
+
+.ova_doc_wrap.archive-doc .ova_doc_content .items-doc .item {
+    padding: 32px;
+    box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.1);
+    height: 220px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ova_doc_wrap.archive-doc .ova_doc_content .items-doc .doc-readmore a {
+    display: inline-flex
+;
+    align-items: center;
+    font-size: 16px;
+    height: 40px;
+    letter-spacing: 0.2px;
+    line-height: 40px;
+    color: white;
+    border: none;
+    padding: 0 24px;
+    font-weight: 500;
+    background: #00578C;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+}
+
+.ova_doc_wrap .ova_doc_content .doc-meta .doc-categories .cat-doc a {
+    font-size: 16px;
+    line-height: 16px;
+    color: #202b5d;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 200px;
+    display: table-cell;
+}
+
+.ova_doc_wrap.archive-doc .ova_doc_content .items-doc .doc-readmore a {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    height: 40px;
+    letter-spacing: 0.2px;
+    line-height: 40px;
+    color: white;
+    border: none;
+    padding: 0 24px;
+    font-weight: 500;
+    background: #003F7F;
+    border-radius: 6px;
+}
+
+.ova_doc_wrap .ova-doc-sidebar .ova_info .ova-list-cat {
+    background: #f0f3f7;
+    padding: 26px 30px 37px 30px;
+    margin-bottom: 50px;
+}
+
+.ova_doc_wrap.archive-doc .ova_doc_content .items-doc .doc-readmore a:hover {
+    background-color: #1781F8;
+    border-color: none;
+}
+
+.ova_doc_wrap .ova-doc-sidebar .ova_info .ova-list-cat ul li.active a {
+    color: white;
+}
+
+.ova_doc_wrap .ova-doc-sidebar .ova_info .ova-list-cat ul li.active {
+    background: #1781F8;
+    box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.05);
+		border-radius: 6px;
+}
+
+.ova_doc_wrap .ova-doc-sidebar .ova_info .ova-list-cat ul li.active, .ova_doc_wrap .ova-doc-sidebar .ova_info .ova-list-cat ul li:hover {
+    background: #1781F8;
+    box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.05);
+		border-radius: 6px;
+}
+
+.ova_doc_wrap .ova-doc-sidebar .ova_info .ova-list-cat ul li a:hover {
+    color: white;
+}
+
+.ova_doc_wrap.archive-doc .ova_doc_content .doc-list-item .items-doc {
+    padding: 0 15px;
+    width: 50%;
+}
+
+.ova_doc_wrap.archive-doc .ova_doc_content {
+    padding-right: 0px;
+}
+
+.ova_doc_wrap .ova-doc-sidebar + .ova_doc_content {
+    width: calc(100% - 317px);
+    padding-left: 40px;
+}
+
+.ova_doc_wrap.archive-doc .blog_pagination {
+    margin: 0;
+}
+
+/* Document mobile */
+@media (max-width: 768px) {
+.ova_doc_wrap .ova_doc_content .share_social {
+    margin-top: 30px!important;
+    padding-top: 30px!important;
+    margin-bottom: 30px!important;
+}
+	
+    .ova_doc_wrap .ova-doc-sidebar + .ova_doc_content {
+    width: 100%!important;
+    padding-left: 0px!important;
+}
+	.ova_doc_wrap.archive-doc .ova_doc_content .doc-list-item .items-doc {
+    padding: 0 20px!important;
+    width: 100%!important;
+}
+	.ova_doc_wrap.archive-doc .ova_doc_content .items-doc {
+    margin-bottom: 20px!important;
+}
+	.ova_doc_wrap .ova-doc-sidebar {
+    max-width: 100%!important;
+    padding: 0 5px!important;
+}
+	.blog_pagination .pagination {
+    flex-wrap: wrap;
+    margin-bottom: 10px!important;
+    justify-content: center;
+}
+	.ova_doc_wrap .ova-doc-sidebar .ova_info {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0px!important;
+    }
+	.ova_doc_wrap .ova-doc-sidebar .ova_info .ova-list-cat {
+    background: #f0f3f7;
+    padding: 26px 30px 37px 30px;
+    margin-bottom: 0px!important;
+}
+	.ova_doc_wrap .ova-doc-sidebar .ova_info .ova-list-cat .title-list-cat {
+    text-align: center;
+}
+	.ova_doc_wrap .ova_doc_content .ova-list-attachment li {
+    display: flex
+;
+    align-items: center;
+    border: 2px solid #e8e8e8;
+    padding: 20px;
+    flex-direction: column;
+}
+	.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-download {
+    flex: 0;
+    text-align: right;
+}
+	.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-file-name-size .ova-file-size {
+    display: block;
+    font-size: 14px;
+    color: #62718d;
+    text-transform: capitalize;
+    text-align: center;
+}
+	.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-file-name-size {
+    flex: 0 0 calc(100% - 154px);
+    padding-right: 0px;
+    text-align: justify;
+}
+	.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-file-name-size .ova-file-name {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #202b5d;
+    word-break: break-word;
+    padding-bottom: 10px;
+}
+	.ova_doc_wrap .ova_doc_content .doc-meta {
+    margin-bottom: 10px;
+    text-align: center;
+}
+	
+}
+
+@media (max-width: 1024px) {
+.ova_doc_wrap .ova_doc_content .ova-list-attachment li {
+    display: flex
+;
+    align-items: center;
+    border: 2px solid #e8e8e8;
+    padding: 20px;
+    flex-direction: column;
+}
+	.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-download {
+    flex: 0;
+    text-align: right;
+}
+	.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-file-name-size .ova-file-size {
+    display: block;
+    font-size: 14px;
+    color: #62718d;
+    text-transform: capitalize;
+    text-align: center;
+}
+	.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-file-name-size {
+    flex: 0 0 calc(100% - 154px);
+    padding-right: 0px;
+    text-align: justify;
+}
+	.ova_doc_wrap .ova_doc_content .ova-list-attachment li .ova-file-name-size .ova-file-name {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #202b5d;
+    word-break: break-word;
+    padding-bottom: 10px;
+}
+	.ova_doc_wrap .ova_doc_content .doc-meta {
+    margin-bottom: 10px;
+    text-align: center;
+}
 }</style>
 		</head>
 
 <body class="page-template page-template-elementor_header_footer page page-id-6307 wp-custom-logo elementor-default elementor-template-full-width elementor-kit-14 elementor-page elementor-page-6307">    <div class="ova-wrapp">
-    <style id="elementor-post-131">.elementor-131 .elementor-element.elementor-element-bbad919{--display:flex;}.elementor-131 .elementor-element.elementor-element-bbad919:not(.elementor-motion-effects-element-type-background), .elementor-131 .elementor-element.elementor-element-bbad919 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(-90deg, var( --e-global-color-primary ) 0%, #2163AC 100%);}.elementor-131 .elementor-element.elementor-element-17bae9f{--display:grid;--e-con-grid-template-columns:repeat(2, 1fr);--e-con-grid-template-rows:repeat(0, 1fr);--gap:0px 0px;--row-gap:0px;--column-gap:0px;--grid-auto-flow:row;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-34cbaf3{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:15px 15px;--row-gap:15px;--column-gap:15px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-1f28307{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info{justify-content:start;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .icon i:before{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .icon svg{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address a, .elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address, .elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address span {font-weight:500;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address a{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address span{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address a:hover{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-bba5052{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info{justify-content:start;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .icon i:before{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .icon svg{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address a, .elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address, .elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address span {font-weight:500;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address a{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address span{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address a:hover{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-2c7e631{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-end;--align-items:center;--gap:15px 15px;--row-gap:15px;--column-gap:15px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button{background-color:rgba(2, 1, 1, 0);font-size:15px;font-weight:400;line-height:24px;fill:#FFFFFF;color:#FFFFFF;padding:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-6e7d9ff{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button:hover, .elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button:focus{color:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button:hover svg, .elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button:focus svg{fill:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button{background-color:rgba(2, 1, 1, 0);font-size:15px;font-weight:400;line-height:24px;fill:#FFFFFF;color:#FFFFFF;padding:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-5892a63{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button:hover, .elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button:focus{color:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button:hover svg, .elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button:focus svg{fill:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-1645506 .elementor-button{background-color:rgba(2, 1, 1, 0);font-size:15px;font-weight:400;line-height:24px;fill:#FFFFFF;color:#FFFFFF;padding:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-1645506{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-1645506 .elementor-button:hover, .elementor-131 .elementor-element.elementor-element-1645506 .elementor-button:focus{color:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-1645506 .elementor-button:hover svg, .elementor-131 .elementor-element.elementor-element-1645506 .elementor-button:focus svg{fill:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-e5e6929{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova_social .content{justify-content:center;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova-framework-social-icon i{font-size:12px;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova-framework-social-icon:not(:last-child){margin-right:5px;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova_social .content a{width:26px;height:26px;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova-framework-social-icon:hover{background-color:#2163AC!important;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova-framework-social-icon:hover i{color:#FFFFFF !important;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova_social .content a:hover{border-color:#FFFFFF !important;}.elementor-131 .elementor-element.elementor-element-1f16605{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.18);}.elementor-131 .elementor-element.elementor-element-b5da803{--display:flex;--justify-content:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-63e1b63{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:space-between;--align-items:center;--padding-top:0px;--padding-bottom:0px;--padding-left:20px;--padding-right:20px;}.elementor-131 .elementor-element.elementor-element-7fea39a{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu{flex-direction:row;padding:0px 0px 0px 0px;justify-content:flex-end;align-items:flex-end;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu > li > a{padding:40px 8px 40px 8px;font-family:"Cabin", Sans-serif;font-size:16px;font-weight:400;text-transform:none;line-height:24px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav .dropdown-menu{min-width:16rem;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu{padding:15px 15px 15px 15px;border-style:solid;border-width:0px 0px 0px 0px;border-color:#323232;border-radius:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li a{padding:7px 15px 7px 15px;font-family:"Cabin", Sans-serif;font-size:17px;font-weight:400;text-transform:none;line-height:24px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li{border-style:solid;border-width:0px 0px 0px 0px;border-color:#3B3B3B;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li:last-child{border-style:solid;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_openNav{margin:0px 15px 0px 0px;padding:10px 15px 10px 15px;background-color:#2481DD;color:#FFFFFF;border-radius:5px 5px 5px 5px;}.elementor-131 .elementor-element.elementor-element-7fea39a .dropdown button.dropdown-toggle{margin:7px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav li a{border-style:solid;border-width:0px 0px 0px 0px;border-color:rgba(155, 155, 155, 0.12);}.elementor-131 .elementor-element.elementor-element-ddedf78{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-ddedf78 > .elementor-widget-container{margin:2px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-ddedf78 .ova_wrap_search_popup i{font-size:14px;border-style:none;}.elementor-131 .elementor-element.elementor-element-ddedf78 .ova_wrap_search_popup{justify-content:center;}.elementor-131 .elementor-element.elementor-element-e24ada8{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:space-between;--align-items:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-ffda2c9{--display:flex;--margin-top:0px;--margin-bottom:25px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-ffda2c9:not(.elementor-motion-effects-element-type-background), .elementor-131 .elementor-element.elementor-element-ffda2c9 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://media.lapovo.ls.gov.rs/2020/07/Header-photo-contact.png");background-position:top center;background-repeat:no-repeat;background-size:cover;}.elementor-131 .elementor-element.elementor-element-50acfd3 .cover_color{background-color:#06163A9E;}.elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .header_title{font-size:26px;}.elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb li, .elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb li a, .elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb a, .elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb .separator:before{font-size:14px;}.elementor-131 .elementor-element.elementor-element-50acfd3{text-align:center;}@media(min-width:768px){.elementor-131 .elementor-element.elementor-element-bbad919{--content-width:1280px;}.elementor-131 .elementor-element.elementor-element-1f16605{--content-width:1280px;}.elementor-131 .elementor-element.elementor-element-b5da803{--width:15%;}.elementor-131 .elementor-element.elementor-element-e24ada8{--width:10%;}}@media(max-width:1024px) and (min-width:768px){.elementor-131 .elementor-element.elementor-element-b5da803{--width:29%;}.elementor-131 .elementor-element.elementor-element-e24ada8{--width:20%;}}@media(max-width:1024px){.elementor-131 .elementor-element.elementor-element-17bae9f{--grid-auto-flow:row;}.elementor-131 .elementor-element.elementor-element-1f28307{width:100%;max-width:100%;}.elementor-131 .elementor-element.elementor-element-bba5052{width:100%;max-width:100%;}.elementor-131 .elementor-element.elementor-element-63e1b63{--justify-content:flex-end;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu > li > a{padding:10px 15px 10px 15px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu{padding:10px 25px 10px 25px;border-width:0px 0px 1px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li a{padding:8px 0px 8px 10px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li{border-width:0px 0px 1px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li:last-child{border-width:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav li a{border-width:0px 0px 1px 0px;}}@media(max-width:767px){.elementor-131 .elementor-element.elementor-element-17bae9f{--e-con-grid-template-columns:repeat(1, 1fr);--grid-auto-flow:row;}.elementor-131 .elementor-element.elementor-element-b5da803{--width:38%;}.elementor-131 .elementor-element.elementor-element-63e1b63{--width:30%;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-e24ada8{--width:31%;}}/* Start custom CSS for ova_language, class: .elementor-element-212a603 */.switch-lang:hover {
+    <style id="elementor-post-131">.elementor-131 .elementor-element.elementor-element-bbad919{--display:flex;}.elementor-131 .elementor-element.elementor-element-bbad919:not(.elementor-motion-effects-element-type-background), .elementor-131 .elementor-element.elementor-element-bbad919 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(-90deg, var( --e-global-color-primary ) 0%, #2163AC 100%);}.elementor-131 .elementor-element.elementor-element-17bae9f{--display:grid;--e-con-grid-template-columns:repeat(2, 1fr);--e-con-grid-template-rows:repeat(0, 1fr);--gap:0px 0px;--row-gap:0px;--column-gap:0px;--grid-auto-flow:row;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-34cbaf3{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:15px 15px;--row-gap:15px;--column-gap:15px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-1f28307{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info{justify-content:start;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .icon i:before{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .icon svg{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address a, .elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address, .elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address span {font-weight:500;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address a{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address span{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-1f28307 .ova-contact-info .address a:hover{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-bba5052{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info{justify-content:start;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .icon i:before{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .icon svg{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address a, .elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address, .elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address span {font-weight:500;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address a{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address span{color:#EEEEEE;}.elementor-131 .elementor-element.elementor-element-bba5052 .ova-contact-info .address a:hover{color:#FFFFFF;}.elementor-131 .elementor-element.elementor-element-2c7e631{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-end;--align-items:center;--gap:15px 15px;--row-gap:15px;--column-gap:15px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button{background-color:rgba(2, 1, 1, 0);font-size:15px;font-weight:400;line-height:24px;fill:#FFFFFF;color:#FFFFFF;padding:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-6e7d9ff{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button:hover, .elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button:focus{color:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button:hover svg, .elementor-131 .elementor-element.elementor-element-6e7d9ff .elementor-button:focus svg{fill:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button{background-color:rgba(2, 1, 1, 0);font-size:15px;font-weight:400;line-height:24px;fill:#FFFFFF;color:#FFFFFF;padding:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-5892a63{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button:hover, .elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button:focus{color:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button:hover svg, .elementor-131 .elementor-element.elementor-element-5892a63 .elementor-button:focus svg{fill:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-1645506 .elementor-button{background-color:rgba(2, 1, 1, 0);font-size:15px;font-weight:400;line-height:24px;fill:#FFFFFF;color:#FFFFFF;padding:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-1645506{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-1645506 .elementor-button:hover, .elementor-131 .elementor-element.elementor-element-1645506 .elementor-button:focus{color:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-1645506 .elementor-button:hover svg, .elementor-131 .elementor-element.elementor-element-1645506 .elementor-button:focus svg{fill:var( --e-global-color-f5d220b );}.elementor-131 .elementor-element.elementor-element-e5e6929{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova_social .content{justify-content:center;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova-framework-social-icon i{font-size:12px;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova-framework-social-icon:not(:last-child){margin-right:5px;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova_social .content a{width:26px;height:26px;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova-framework-social-icon:hover{background-color:#2163AC!important;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova-framework-social-icon:hover i{color:#FFFFFF !important;}.elementor-131 .elementor-element.elementor-element-e5e6929 .ova_social .content a:hover{border-color:#FFFFFF !important;}.elementor-131 .elementor-element.elementor-element-1f16605{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.18);}.elementor-131 .elementor-element.elementor-element-b5da803{--display:flex;--justify-content:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-63e1b63{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:space-between;--align-items:center;--padding-top:0px;--padding-bottom:0px;--padding-left:20px;--padding-right:20px;}.elementor-131 .elementor-element.elementor-element-7fea39a{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu{flex-direction:row;padding:0px 0px 0px 0px;justify-content:flex-end;align-items:flex-end;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu > li > a{padding:40px 8px 40px 8px;font-family:"Cabin", Sans-serif;font-size:16px;font-weight:400;text-transform:none;line-height:24px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav .dropdown-menu{min-width:16rem;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu{padding:15px 15px 15px 15px;border-style:solid;border-width:0px 0px 0px 0px;border-color:#323232;border-radius:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li a{padding:7px 15px 7px 15px;font-family:"Cabin", Sans-serif;font-size:17px;font-weight:400;text-transform:none;line-height:24px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li{border-style:solid;border-width:0px 0px 0px 0px;border-color:#3B3B3B;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li:last-child{border-style:solid;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_openNav{margin:0px 15px 0px 0px;padding:10px 15px 10px 15px;background-color:#2481DD;color:#FFFFFF;border-radius:5px 5px 5px 5px;}.elementor-131 .elementor-element.elementor-element-7fea39a .dropdown button.dropdown-toggle{margin:7px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav li a{border-style:solid;border-width:0px 0px 0px 0px;border-color:rgba(155, 155, 155, 0.12);}.elementor-131 .elementor-element.elementor-element-ddedf78{width:auto;max-width:auto;}.elementor-131 .elementor-element.elementor-element-ddedf78 > .elementor-widget-container{margin:2px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-ddedf78 .ova_wrap_search_popup i{font-size:14px;border-style:none;}.elementor-131 .elementor-element.elementor-element-ddedf78 .ova_wrap_search_popup{justify-content:center;}.elementor-131 .elementor-element.elementor-element-e24ada8{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:space-between;--align-items:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-ffda2c9{--display:flex;--margin-top:0px;--margin-bottom:25px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-ffda2c9:not(.elementor-motion-effects-element-type-background), .elementor-131 .elementor-element.elementor-element-ffda2c9 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://media.lapovo.ls.gov.rs/2020/07/Header-photo-contact.png");background-position:top center;background-repeat:no-repeat;background-size:cover;}.elementor-131 .elementor-element.elementor-element-50acfd3 .cover_color{background-color:#06163A9E;}.elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .header_title{padding:130px 0px 0px 0px;font-size:26px;}.elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb li, .elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb li a, .elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb a, .elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb .separator:before{font-size:14px;}.elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs{padding:0px 0px 130px 0px;}.elementor-131 .elementor-element.elementor-element-50acfd3{text-align:center;}@media(min-width:768px){.elementor-131 .elementor-element.elementor-element-bbad919{--content-width:1280px;}.elementor-131 .elementor-element.elementor-element-1f16605{--content-width:1280px;}.elementor-131 .elementor-element.elementor-element-b5da803{--width:15%;}.elementor-131 .elementor-element.elementor-element-e24ada8{--width:10%;}}@media(max-width:1024px) and (min-width:768px){.elementor-131 .elementor-element.elementor-element-b5da803{--width:29%;}.elementor-131 .elementor-element.elementor-element-e24ada8{--width:20%;}}@media(max-width:1024px){.elementor-131 .elementor-element.elementor-element-17bae9f{--grid-auto-flow:row;}.elementor-131 .elementor-element.elementor-element-1f28307{width:100%;max-width:100%;}.elementor-131 .elementor-element.elementor-element-bba5052{width:100%;max-width:100%;}.elementor-131 .elementor-element.elementor-element-63e1b63{--justify-content:flex-end;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu > li > a{padding:10px 15px 10px 15px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu{padding:10px 25px 10px 25px;border-width:0px 0px 1px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li a{padding:8px 0px 8px 10px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li{border-width:0px 0px 1px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav ul.menu .dropdown-menu li:last-child{border-width:0px 0px 0px 0px;}.elementor-131 .elementor-element.elementor-element-7fea39a .ova_nav li a{border-width:0px 0px 1px 0px;}.elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .header_title{padding:90px 0px 0px 0px;font-size:22px;}.elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs{padding:0px 0px 90px 0px;}}@media(max-width:767px){.elementor-131 .elementor-element.elementor-element-17bae9f{--e-con-grid-template-columns:repeat(1, 1fr);--grid-auto-flow:row;}.elementor-131 .elementor-element.elementor-element-b5da803{--width:38%;}.elementor-131 .elementor-element.elementor-element-63e1b63{--width:30%;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-131 .elementor-element.elementor-element-e24ada8{--width:31%;}.elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .header_title{font-size:18px;}.elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb li, .elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb li a, .elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb a, .elementor-131 .elementor-element.elementor-element-50acfd3 .ova_header_el .ovatheme_breadcrumbs ul.breadcrumb .separator:before{font-size:12px;}}/* Start custom CSS for ova_language, class: .elementor-element-212a603 */.switch-lang:hover {
     cursor: pointer;
     position: relative;
     display: inline-block;
@@ -1302,12 +1600,12 @@ button#cirilica:focus {
 	<ul class=" dropdown-menu">
 		<li id="menu-item-5856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5856" menu-level="3"><a href="/lapovostatic/nadleznost-skupstine-opstine/">Надлежност скупштине општине</a></li>
 		<li id="menu-item-5857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5857" menu-level="3"><a href="/lapovostatic/team/mirela-radenkovic/">Председник скупштине</a></li>
-		<li id="menu-item-5858" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5858" menu-level="3"><a href="#">Заменик председника скупштине</a></li>
-		<li id="menu-item-5859" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5859" menu-level="3"><a href="#">Секретар скупштине</a></li>
-		<li id="menu-item-5860" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5860" menu-level="3"><a href="#">Заменик секретара скупштине</a></li>
-		<li id="menu-item-5861" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5861" menu-level="3"><a href="#">Одборници</a></li>
-		<li id="menu-item-5863" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5863" menu-level="3"><a href="#">Општинска изборна комисија</a></li>
-		<li id="menu-item-5862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5862" menu-level="3"><a href="#">Радна тела</a></li>
+		<li id="menu-item-5858" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5858" menu-level="3"><a href="/lapovostatic/team/milan-hrsum/">Заменик председника скупштине</a></li>
+		<li id="menu-item-5859" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5859" menu-level="3"><a href="/lapovostatic/team/suzana-janicijevic/">Секретар скупштине</a></li>
+		<li id="menu-item-5860" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5860" menu-level="3"><a href="/lapovostatic/team/dejan-stajkovic/">Заменик секретара скупштине</a></li>
+		<li id="menu-item-5861" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5861" menu-level="3"><a href="/lapovostatic/odbornici-skupstine/">Одборници</a></li>
+		<li id="menu-item-5863" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5863" menu-level="3"><a href="/lapovostatic/ova_doc/opstinska-izborna-komisija/">Општинска изборна комисија</a></li>
+		<li id="menu-item-5862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5862" menu-level="3"><a href="/lapovostatic/radna-tela/">Радна тела</a></li>
 	</ul>
 </li>
 	<li id="menu-item-5849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5849 dropdown" menu-level="2">
@@ -1338,7 +1636,7 @@ button#cirilica:focus {
 </ul>
 </li>
 <li id="menu-item-5838" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5838 dropdown" menu-level="1">
-<a href="#">Документа<i class="arrow_carrot-down"></i></a><button type="button" aria-label="Menu" class="dropdown-toggle"><i class="arrow_carrot-down"></i></button>
+<a href="/lapovostatic/ova_doc/">Документа<i class="arrow_carrot-down"></i></a><button type="button" aria-label="Menu" class="dropdown-toggle"><i class="arrow_carrot-down"></i></button>
 <ul class=" dropdown-menu">
 	<li id="menu-item-5932" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5932" menu-level="2"><a href="/lapovostatic/statut-opstine/">Статут општине</a></li>
 	<li id="menu-item-5933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5933" menu-level="2"><a href="#">Акти општине</a></li>
@@ -1692,7 +1990,7 @@ button#cirilica:focus {
 		<!-- area end -->
 		<!-- Current Date Time area start -->
 					<div class="splw-lite-current-time">
-								<span class="lw-time">09:36,  </span>
+								<span class="lw-time">11:15,  </span>
 				<!-- time area end -->
 								<span class="lw-date">30/01/2025</span>
 				<!-- date area end -->
@@ -1708,7 +2006,7 @@ button#cirilica:focus {
 		<!-- weather icon html area end -->
 		<!-- weather current temperature html area start -->
 					<span class="cur-temp"> 
-				<span class="current-temperature">13</span><span class="temperature-scale">°C</span>			</span>
+				<span class="current-temperature">14</span><span class="temperature-scale">°C</span>			</span>
 		<!-- temperature html area end -->
 	</div>
 </div>
@@ -1732,7 +2030,7 @@ button#cirilica:focus {
 				<span class="details-icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" width="18" height="18"><title>Clouds</title>
 <path d="M11.3 17.4H4.7c-2.6 0-4.7-2.1-4.7-4.7 0-2 1.3-3.7 3.1-4.4.6-1.8 2.4-3.1 4.5-3.1 2 0 3.7 1.1 4.4 2.8a4.75 4.75 0 0 1 4.1 4.7c-.1 2.6-2.2 4.7-4.8 4.7zm-3.8-10c-1.2 0-2.3.8-2.5 1.9l-.1.7-.7.2c-1.2.2-2 1.3-2 2.5 0 1.4 1.1 2.5 2.5 2.5h6.6c1.4 0 2.5-1.1 2.5-2.5s-1.1-2.5-2.5-2.5h-1.1l-.2-.9c-.2-1.1-1.2-1.9-2.5-1.9zm9-2.7c-.6-1.5-2.1-2.5-3.9-2.5-1.4 0-2.6.6-3.4 1.6-.1.3 0 .6.3.7.4.1.7.3 1 .5.2.2.5.1.8-.1.4-.3.9-.5 1.4-.5 1 0 1.8.6 2 1.5l.2.9h.9A2.22 2.22 0 0 1 18 9c0 .7-.3 1.2-.8 1.6-.2.2-.3.5-.2.7.1.3.1.7.2 1.1h0a.47.47 0 0 0 .5.5h.2s.1 0 .1-.1c1.1-.7 2-2.1 2-3.8 0-2.1-1.5-3.9-3.5-4.3z"></path></svg></span>				<span class="options-title">Clouds:</span>
 			</span>
-			<span class="options-value">81%</span>
+			<span class="options-value">76%</span>
 		</div>
 				<!-- Clouds area end -->
 		<!-- Visibility area start -->
@@ -1818,7 +2116,7 @@ button#cirilica:focus {
 <script type="text/javascript" src="/lapovostatic/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1" id="moment-js"></script>
 <script type="text/javascript" id="moment-js-after">
 /* <![CDATA[ */
-moment.updateLocale( 'sr_RS', {"months":["јануар","фебруар","март","април","мај","јун","јул","август","септембар","октобар","новембар","децембар"],"monthsShort":["јан","феб","мар","апр","мај","јун","јул","авг","сеп","окт","нов","дец"],"weekdays":["недеља","понедељак","уторак","среда","четвртак","петак","субота"],"weekdaysShort":["Нед","Пон","Уто","Сре","Чет","Пет","Суб"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"j. F Y. H:i","LLLL":null}} );
+moment.updateLocale( 'sr_RS', {"months":["јануар","фебруар","март","април","мај","јун","јул","август","септембар","октобар","новембар","децембар"],"monthsShort":["јан","феб","мар","апр","мај","јун","јул","авг","сеп","окт","нов","дец"],"weekdays":["недеља","понедељак","уторак","среда","четвртак","петак","субота"],"weekdaysShort":["Нед","Пон","Уто","Сре","Чет","Пет","Суб"],"week":{"dow":1},"longDateFormat":{"LT":"H:i","LTS":null,"L":null,"LL":"d.m.Y","LLL":"j. F Y. H:i","LLLL":null}} );
 /* ]]> */
 </script>
 <script type="text/javascript" src="/lapovostatic/wp-content/plugins/ova-events/assets/libs/calendar/underscore-min.js?ver=6.7.1" id="underscore-min-js"></script>
@@ -1879,7 +2177,7 @@ var ajax_object = {"ajax_url":"\/lapovostatic\/wp-admin\/admin-ajax.php"};
 <script type="text/javascript" src="/lapovostatic/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
 <script type="text/javascript" id="jquery-ui-datepicker-js-after">
 /* <![CDATA[ */
-jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Затвори","currentText":"Данас","monthNames":["јануар","фебруар","март","април","мај","јун","јул","август","септембар","октобар","новембар","децембар"],"monthNamesShort":["јан","феб","мар","апр","мај","јун","јул","авг","сеп","окт","нов","дец"],"nextText":"Следеће","prevText":"Претходно","dayNames":["недеља","понедељак","уторак","среда","четвртак","петак","субота"],"dayNamesShort":["Нед","Пон","Уто","Сре","Чет","Пет","Суб"],"dayNamesMin":["Н","П","У","С","Ч","П","С"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Затвори","currentText":"Данас","monthNames":["јануар","фебруар","март","април","мај","јун","јул","август","септембар","октобар","новембар","децембар"],"monthNamesShort":["јан","феб","мар","апр","мај","јун","јул","авг","сеп","окт","нов","дец"],"nextText":"Следеће","prevText":"Претходно","dayNames":["недеља","понедељак","уторак","среда","четвртак","петак","субота"],"dayNamesShort":["Нед","Пон","Уто","Сре","Чет","Пет","Суб"],"dayNamesMin":["Н","П","У","С","Ч","П","С"],"dateFormat":"dd.mm.yy","firstDay":1,"isRTL":false});});
 /* ]]> */
 </script>
 <script type="text/javascript" id="egovt-script-js-extra">
