@@ -603,7 +603,7 @@ var ajax_object = {"ajax_url":"\/lapovostatic\/wp-admin\/admin-ajax.php"};
 	SR7.E				??= {};
 	SR7.E.gAddons		??= {};
 	SR7.E.php 			??= {};
-	SR7.E.nonce			= '22431f1e71';
+	SR7.E.nonce			= 'c7a84d97f4';
 	SR7.E.ajaxurl		= 'https://panel.lapovo.ls.gov.rs/wp-admin/admin-ajax.php';
 	SR7.E.resturl		= 'https://panel.lapovo.ls.gov.rs/wp-json/';
 	SR7.E.slug_path		= 'revslider/revslider.php';
@@ -1158,6 +1158,13 @@ span.type {
     padding-right: 10px;
 }
 
+.ova_doc_wrap .ova_doc_content .ova-list-attachment {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    padding-top: 15px;
+}
+
 .ova_doc_wrap.archive-doc .ova_doc_content .items-doc .item {
     padding: 32px;
     box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.1);
@@ -1461,15 +1468,21 @@ span.type {
 <a title="Документа" href="/lapovostatic/ova_doc/">Документа</a><span class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
 <ul class=" dropdown-menu">
 	<li id="menu-item-5932" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5932"><a title="Статут општине" href="/lapovostatic/statut-opstine/">Статут општине</a></li>
-	<li id="menu-item-5933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5933"><a title="Акти општине" href="#">Акти општине</a></li>
+	<li id="menu-item-5933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5933"><a title="Акти општине" href="/lapovostatic/ova_doc/akti-opstine-lapovo/">Акти општине</a></li>
 	<li id="menu-item-5931" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5931"><a title="Информатор о раду" href="/lapovostatic/informator-o-radu/">Информатор о раду</a></li>
 	<li id="menu-item-5924" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5924"><a title="Набавке у Општини Лапово" href="#">Набавке у Општини Лапово</a></li>
-	<li id="menu-item-5925" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5925"><a title="Службени гласници" href="#">Службени гласници</a></li>
-	<li id="menu-item-5926" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5926"><a title="Систематизација радних места" href="#">Систематизација радних места</a></li>
-	<li id="menu-item-5927" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5927"><a title="Закони из области рада делокруга општине" href="#">Закони из области рада делокруга општине</a></li>
-	<li id="menu-item-5929" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5929"><a title="Борба против корупције" href="#">Борба против корупције</a></li>
-	<li id="menu-item-5930" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5930"><a title="Стратешка планска документа" href="#">Стратешка планска документа</a></li>
-	<li id="menu-item-5928" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5928"><a title="Буџетски портал" href="#">Буџетски портал</a></li>
+	<li id="menu-item-5925" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5925"><a title="Службени гласници" href="/lapovostatic/cat_doc/sluzbeni-glasnici/">Службени гласници</a></li>
+	<li id="menu-item-5926" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5926"><a title="Систематизација радних места" href="/lapovostatic/ova_doc/sistematizacija-radnih-mesta/">Систематизација радних места</a></li>
+	<li id="menu-item-5927" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5927"><a title="Закони из области рада делокруга општине" href="/lapovostatic/zakoni-iz-oblasti-rada-delokruga-opstine/">Закони из области рада делокруга општине</a></li>
+	<li id="menu-item-5929" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5929 dropdown">
+<a title="Борба против корупције" href="/lapovostatic/ova_doc/borba-protiv-korupcije/">Борба против корупције</a><span class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+	<ul class=" dropdown-menu">
+		<li id="menu-item-7405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7405"><a title="Форум за праћење примене ЛАП-а (2022. година)" href="/lapovostatic/ova_doc/forum-za-pracenje-primene-lap-a-2022-godina/">Форум за праћење примене ЛАП-а (2022. година)</a></li>
+		<li id="menu-item-7413" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7413"><a title="Форум за праћење примене ЛАП-а (2023. година)" href="/lapovostatic/ova_doc/forum-za-pracenje-primene-lap-a-2023-godina/">Форум за праћење примене ЛАП-а (2023. година)</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5930" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5930"><a title="Стратешка планска документа" href="/lapovostatic/strateska-planska-dokumenta/">Стратешка планска документа</a></li>
+	<li id="menu-item-5928" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5928"><a title="Буџетски портал" href="/lapovostatic/budzetski-portal/">Буџетски портал</a></li>
 </ul>
 </li>
 <li id="menu-item-5839" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5839 dropdown">
@@ -1857,7 +1870,7 @@ var ScrollUpText = {"value":"Top"};
 <script type="text/javascript" src="/lapovostatic/wp-content/themes/egovt/assets/js/script.js" id="egovt-script-js"></script>
 <script type="text/javascript" id="eael-general-js-extra">
 /* <![CDATA[ */
-var localize = {"ajaxurl":"\/lapovostatic\/wp-admin\/admin-ajax.php","nonce":"c8f15ec97e","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Мобилни портрет режим","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Мобилни пејзажни режим","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Лаптоп","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Широки екран","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+var localize = {"ajaxurl":"\/lapovostatic\/wp-admin\/admin-ajax.php","nonce":"1cdc6a7bfb","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Мобилни портрет режим","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Мобилни пејзажни режим","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Лаптоп","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Широки екран","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/lapovostatic/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=6.1.1" id="eael-general-js"></script>
